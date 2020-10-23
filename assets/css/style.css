@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
+/*--font-family: 'Sansita Swashed', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*--font-family: 'Roboto', sans-serif;*/
+
+
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sansita Swashed', cursive;
+  background-color: rgba(121, 195, 255, .2);
+}
+
+
+/*------------------------------------------------------------header and nav*/
+
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  background-color: #a60000;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+header .logo{
+    color: #fff;
+    font-family: 'Sansita Swashed', cursive;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: 100;
+}
+
+
+header nav{
+    float: right;
+}
+
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+
+header nav ul li a{
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+}
+
+
+header nav ul li a:hover
+{
+  
+  color: rgb(255, 251, 0);
+  text-decoration: none;
+}
+
+.btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    height: 52px;
+    padding-top: 12px;
+    margin-bottom: 3px;
+    background-position: center;
+
+}
+
+
+.prize{
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    
+}
+
+
+
+img{
+    width: 100%;
+    height: 180px;
+}
+
+
+.menu-toggle{
+  color: #fff;
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+
+
+.names{
+    margin-top: 120px;
+    text-align: center;
+    
+}
+ 
+
+
+.name1 h2{
+   font-size: 70px; 
+   text-decoration: underline;
+}
+
+
+
+.name2 h3{
+    margin-top: 50px;
+    font-size: 80px;
+    text-decoration: underline;
+}
+/*------------------------------------------------------------footer*/
+
+footer{
+  height: 50px;
+  background-color:  #a60000;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.socialnet{
+  text-align: center;
+  margin-bottom:100px;
+}
+
+.socialnet li{
+  display: inline; 
+}
+
+.socialnet i {
+  font-size: 150%;
+  margin: 20px;
+  color: #fff;
+}
+
+.socialnet :hover{
+    color:  rgb(255, 251, 0);
+}
+
+
+/*----------------------------------------------------------------------------------------carousel*/
+
+.carousel{
+    position: relative;
+    height: 500px;
+    width: 80%;
+    margin: 100px auto;
+}
+
+
+.carousel__track-container{
+    background: lightblue;
+    padding: 10px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.carousel__track{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+
+.carousel__slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.carousel__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.carousel__button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.carousel__button--left{
+    left: -40px;
+}
+
+
+.carousel__button--right{
+    right: -40px;
+}
+
+
+.carousel__button img{
+    width: 12px;
+}
+
+
+.carousel__nav{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+
+.carousel__indicator{
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgba(0,0,0, .3);
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+
+.carousel__indicator.current-slide{
+    background: rgba(0,0,0, .75);
+}
+
+
+.is-hidden {
+    display: none;
+}
+
+
+/*--------------------------------------------------------------------------------------------map*/
+
+
+
+
+.mapPosition{
+  text-transform: uppercase; 
+  text-align: center;  
+  font-family: "sans-serif", cursive;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 600px;
+}
+
+
+
+
+#map{
+  margin-top: 15px;
+  margin-bottom: 7%;
+  margin-left:  auto;
+  margin-right: auto;
+  width: 70%; 
+  height: 300px;
+}
+
+
+/*--------------------------------------------------------------------------------------------menu.html*/
+
+
+.menu{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/*--.menuList{
+    color: #a60000 ;
+    font-weight: 900;
+}--*/
+
+
+
+.price p { 
+    display: inline-block;
+    right: -50px;
+    
+
+ }
+
+.sectionMenu{
+    margin-bottom: 400px;
+}
+
+
+/*------------------------------------------------------------ourstory Page*/
+
+
+.story{
+    margin: 8%;
+}
+
+.title{
+    margin-bottom: 5%;
+    color: #a60000;
+    font-size: 55px;
+}
+
+.par h1 {
+    padding-top: 3%;
+}
+
+.par p{
+    margin-bottom: 3%;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+/*--------------------------------------------------------------------------------------------gallery.html*/
+
+
+#photo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100%;
+    height: 300px;
+}
+
+/*----------------------------------------------------------------------order online.html*/
+/*--form{
+    width: 80%;
+    margin: 90px auto;
+    font-family: 'Times New Roman', serif;
+    background-color: #eb1c1c; 
+    color: black;
+    
+}
+
+
+.formPosition h2{
+    text-align: center;
+    margin-bottom: 40x;
+    font-weight: 800;
+}
+.formPosition{
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 65px;
+    margin-bottom: 65px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, .6);
+    width: 500px;
+    padding-left: 10px;
+    
+}
+
+.formPosition .formGroup{
+ 
+}--*/
+
+
+.order-form{
+             
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 55px;
+    margin-bottom: 65px;
+    color: black;
+    background-color: rgb(235, 235, 235);                   /* rgba(60, 60, 60, .6);*/
+    width: 500px;
+    padding-left: 10px;
+    font-weight: 200;
+}
+
+
+.order-form h2{
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+  
+  
+.text-input{
+    background-color: transparent;
+    color: black;
+    width: 90%;
+    height: 25px;
+    margin: 0 auto; 
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+
+.placeOrder{
+            background-color: transparent;
+            color: black;
+            width: 90%;
+            height: 130px;
+            margin: 0 auto; 
+            margin-bottom: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+}
+
+
+.my-button{
+              margin: 0 auto;
+              border-radius: 2px;
+              padding: 15px 32px 15px 32px;
+              text-align: center;
+              font-size: 100%;
+              font-weight: 700;
+              background-color: #48dd00;
+              color:#fafafa;
+              display: block;
+}
+
+div h6{
+    font-size: small;
+    text-align: center;
+}
+
+/*----------------------------------------------------------------------------------------------------mobile*/
+@media (max-width:991px){
+
+
+/*------------------------------------------------------------mobile-header-nav*/
+
+
+header{
+    padding: 0 20px;
+}
+
+.menu-toggle{
+    display: block;
+}
+  
+header nav{
+    
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: #333;
+    top: 50px;
+    left: -100%;
+    transition: 0.5s;
+}
+
+
+header nav.active{
+    left: 0;
+}
+
+
+header nav ul{
+    display: block;
+    text-align: center;
+}
+
+
+header nav ul li a{
+  border-bottom: 1px solid rgba(0,0,0, .2); 
+  border-top: 1px solid rgba(0,0,0, .2);
+}
+
+
+
+/*------------------------------------------------------------mobile-index-pictures*/
+
+
+
+
+
+/*------------------------------------------------------------mobile-sections*/
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------mobile-map*/
+
+.mappa{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20%;
+}
+
+
+.mappa h1{
+  background-color: #fff;
+  border: black solid 2px;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.bordo{
+    border: 1px black solid;
+}
+
+
+
+/*------------------------------------------------------------mobile whyJordans Page*/
+
+
+
+
+
+
+/*-----------------------------------------------------------mobile-contacts-Page*/
+
+
+
+
+
+/*------------------------------------------------------------mobile-Jordan_in-Page*/
+
+
+
+
+
+/*------------------------------------------------------------mobile-Jordan_out-Page*/
+/*-----------------------------------------Jordan for women--*/
+
+
+
+
+
+/*-------------------------------------------------------------------mobile cards styling */
+
+
+
+   
+}
+
+
+
+
+/*--------------------------------------------------------------------------home page cards responsivity */
+/*--the cards are an adjustment of the previous homepage that was completely different (lot of empty white space)*/
+
+@media (max-width: 576px) {  
+  .xs {color:red;font-weight:bold;}
+/*----------------------------------------------------------XS--index-Page*/
+ 
+.top-pic img{
+    margin-top: 4%;
+}
+
+/*----------------------------------------------------------XS--Jordan_in-Page*/
+
+
+/*----------------------------------------------------------XS--Jordan_out-Page*/
+
+
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:768px) {  
+  .sm {color:red;font-weight:bold;}
+
+
+/*----------------------------------------------------------SM--index-Page*/
+.top-pic img{
+    margin-top: 4%;
+}
+
+
+
+/*----------------------------------------------------------SM--Jordan_in-Page*/
+
+
+
+/*----------------------------------------------------------SM--contacts-Page*/
+
+
+
+
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width:992px) {  
+ .md {color:red;font-weight:bold;}
+
+/*----------------------------------------------------------MD--index-Page*/
+.top-pic img{
+    margin-top: 3%;
+}
+
+/*----------------------------------------------------------MD--contacts-Page*/
+
+.signup-form{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 600px;
+}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1200px) { 
+ .lg {color:red;font-weight:bold;}
+
+/*----------------------------------------------------------LG--contacts-Page*/
+
+
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .xl {color:red;font-weight:bold;}
+
+
+}
