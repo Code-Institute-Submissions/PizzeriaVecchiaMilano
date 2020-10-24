@@ -82,8 +82,10 @@ header nav ul li a:hover
     padding-top: 12px;
     margin-bottom: 3px;
     background-position: center;
-
 }
+
+
+/*----------------------------------------------------------------index.html*/
 
 
 .prize{
@@ -92,12 +94,11 @@ header nav ul li a:hover
     margin-left: 10%;
     margin-bottom: 5%;
     margin-top: 1%;
-    
 }
 
 
 
-img{
+.prize img{
     width: 100%;
     height: 180px;
 }
@@ -117,7 +118,6 @@ img{
 .names{
     margin-top: 120px;
     text-align: center;
-    
 }
  
 
@@ -134,7 +134,10 @@ img{
     font-size: 80px;
     text-decoration: underline;
 }
-/*------------------------------------------------------------footer*/
+
+
+/*--------------------------------------------------------------------footer*/
+
 
 footer{
   height: 50px;
@@ -165,7 +168,8 @@ footer{
 }
 
 
-/*----------------------------------------------------------------------------------------carousel*/
+/*------------------------------------------------------------------carousel*/
+
 
 .carousel{
     position: relative;
@@ -263,9 +267,7 @@ footer{
 }
 
 
-/*--------------------------------------------------------------------------------------------map*/
-
-
+/*-----------------------------------------------------------------------map*/
 
 
 .mapPosition{
@@ -288,10 +290,11 @@ footer{
   margin-right: auto;
   width: 70%; 
   height: 300px;
+  border: 1px solid black;
 }
 
 
-/*--------------------------------------------------------------------------------------------menu.html*/
+/*-----------------------------------------------------------------menu.html*/
 
 
 .menu{
@@ -319,7 +322,7 @@ footer{
 }
 
 
-/*------------------------------------------------------------ourstory Page*/
+/*-------------------------------------------------------------ourstory Page*/
 
 
 .story{
@@ -341,7 +344,9 @@ footer{
     font-size: 20px;
     word-spacing: 5px;
 }
-/*--------------------------------------------------------------------------------------------gallery.html*/
+
+
+/*--------------------------------------------------------------gallery.html*/
 
 
 #photo {
@@ -358,7 +363,8 @@ footer{
     height: 300px;
 }
 
-/*----------------------------------------------------------------------order online.html*/
+
+/*---------------------------------------------------------order online.html*/
 /*--form{
     width: 80%;
     margin: 90px auto;
@@ -398,10 +404,11 @@ footer{
     margin-top: 55px;
     margin-bottom: 65px;
     color: black;
-    background-color: rgb(235, 235, 235);                   /* rgba(60, 60, 60, .6);*/
+    background-color: rgba(235, 235, 235);                   /* rgba(60, 60, 60, .6);*/
     width: 500px;
     padding-left: 10px;
     font-weight: 200;
+    border: 1px black dotted;
 }
 
 
@@ -516,7 +523,7 @@ header nav ul li a{
 
 /*------------------------------------------------------------mobile-map*/
 
-.mappa{
+/*-.map{
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -524,7 +531,7 @@ header nav ul li a{
 }
 
 
-.mappa h1{
+.mapPosition h1{
   background-color: #fff;
   border: black solid 2px;
   text-align: center;
@@ -534,7 +541,7 @@ header nav ul li a{
 
 .bordo{
     border: 1px black solid;
-}
+}*/
 
 
 
@@ -579,18 +586,101 @@ header nav ul li a{
 
 @media (max-width: 576px) {  
   .xs {color:red;font-weight:bold;}
-/*----------------------------------------------------------XS--index-Page*/
- 
-.top-pic img{
-    margin-top: 4%;
+/*------------------------------------------------------------XS--index-Page*/
+
+
+.names{
+    margin-top: 70px;
 }
 
-/*----------------------------------------------------------XS--Jordan_in-Page*/
+
+.name1 h2{
+   font-size: 40px; 
+}
 
 
-/*----------------------------------------------------------XS--Jordan_out-Page*/
+.name2 h3{
+   font-size: 30px;
+   margin-top: 20px;
+}
 
 
+.carousel{
+    height: 200px;
+    margin-top: 50px;
+}
+
+
+.prize{
+    width: 20%;
+    margin-bottom: 40px;
+}
+
+
+
+.prize img{
+    width: 100%;
+    height: 70px;
+}
+
+
+.mapPosition{
+  text-align: center;  
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+
+
+
+#map{
+  margin-top: 15px;
+  margin-bottom: 80px;
+  margin-left:  auto;
+  margin-right: auto;
+  width: 70%; 
+  height: 300px;
+}
+
+
+.mapPosition h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/*---------------------------------------------------------XS--ourstory Page*/
+
+
+.story{
+    margin: 8%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+/*----------------------------------------------------------XS--gallery Page*/
+
+#photo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+}
+
+#photo img{
+    
+    height: 100px;
+}
+/*-----------------------------------------------------XS--order online Page*/
+
+
+.order-form{
+    width: 300px;
+}
 
 
 }

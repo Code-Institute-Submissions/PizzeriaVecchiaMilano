@@ -9,6 +9,16 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css"/>
         <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_DTwy4wwA6ANnZa1eAZBnG");
+   })();
+</script>
+
     </head>
     
     <body>
@@ -57,21 +67,21 @@
 
 
 
-<form class="order-form" method="POST" action="https://formdump.codeinstitute.net/">
+<form onsubmit="return sendMail(this);" class="order-form" ><!--action="https://formdump.codeinstitute.net/"-->
                 <h2>Want to eat at home?</h2>
                 <h2>Send us your order!</h2>
                 
                 <label for="name">Name</label><br>
-                <input class="text-input" id="name" type="text" name="yourname" placeholder="Name, Phone Number" required>
+                <input class="text-input" id="name" type="text" name="name" placeholder="Name, Phone Number" required>
                 
                 <label for="email">Email Address</label>
-                <input class="text-input" id="email" type="email" name="email_address" placeholder="name@example.com" required>
+                <input class="text-input" id="email" type="email" name="emailaddress" placeholder="name@example.com" required>
                 
               <!--  <label for="idea">Describe Your Shoes</label>
                 <input class="placeOrder" id="order" type="text" name="idea" rows="3" required>-->
                 
                 <label for="order">Place Your Order</label>
-    <textarea class="placeOrder" id="textArea" rows="3" 
+    <textarea name="textArea" class="placeOrder" id="textArea" rows="3" 
     placeholder=
     "Example:
     2x Margherita
@@ -80,9 +90,9 @@
     2x Tiramisu" required></textarea>
 
                 <label for="in">Delivery</label>
-                <input id="in" type="radio" name="shoesmodel" value="in" required>
-                <label for="out">Pick up in store</label>
-                <input id="out" type="radio" name="shoesmodel" value="out">
+                <input id="in" type="radio" name="pizza" value="in" required>
+                <label for="out">Pick up in Pizzeria</label>
+                <input id="out" type="radio" name="pizza" value="out">
                 <input class="my-button" type="submit" value="Send order!">
                 
    <div><h6>After you click on Send order!, you will receive an email confirmation with your order description and the total balance</h6></div>
@@ -123,7 +133,7 @@
             })
             })
         </script>
-
+<script src="assets/js/sendEmail.js"></script>
 
     </body>
     
