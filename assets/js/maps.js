@@ -1,16 +1,16 @@
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 3,
+        zoom: 12,
         center: {
-            lat: 45.448571,
-            lng: 9.192810
+            lat: 45.478489,
+            lng: 9.122150 
         }
     });
 
     var labels = "";
 
     var locations = [
-        { lat: 45.448571, lng: 9.192810 },
+        { lat: 45.478489, lng: 9.122150 },
         
     ];
 

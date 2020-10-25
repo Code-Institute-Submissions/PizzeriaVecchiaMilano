@@ -85,6 +85,40 @@ header nav ul li a:hover
 }
 
 
+
+
+
+/*--------------------------------------------------------------------footer*/
+
+
+footer{
+  height: 50px;
+  background-color:  #a60000;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.socialnet{
+  text-align: center;
+  margin-bottom:100px;
+}
+
+.socialnet li{
+  display: inline; 
+}
+
+.socialnet i {
+  font-size: 150%;
+  margin: 20px;
+  color: #fff;
+}
+
+.socialnet :hover{
+    color:  rgb(255, 251, 0);
+}
+
 /*----------------------------------------------------------------index.html*/
 
 
@@ -133,38 +167,6 @@ header nav ul li a:hover
     margin-top: 50px;
     font-size: 80px;
     text-decoration: underline;
-}
-
-
-/*--------------------------------------------------------------------footer*/
-
-
-footer{
-  height: 50px;
-  background-color:  #a60000;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-.socialnet{
-  text-align: center;
-  margin-bottom:100px;
-}
-
-.socialnet li{
-  display: inline; 
-}
-
-.socialnet i {
-  font-size: 150%;
-  margin: 20px;
-  color: #fff;
-}
-
-.socialnet :hover{
-    color:  rgb(255, 251, 0);
 }
 
 
@@ -294,6 +296,11 @@ footer{
 }
 
 
+.mapPosition h1{
+    text-align: center;
+}
+
+
 /*-----------------------------------------------------------------menu.html*/
 
 
@@ -404,7 +411,7 @@ footer{
     margin-top: 55px;
     margin-bottom: 65px;
     color: black;
-    background-color: rgba(235, 235, 235);                   /* rgba(60, 60, 60, .6);*/
+    background-color: rgba(235, 235, 235);                   
     width: 500px;
     padding-left: 10px;
     font-weight: 200;
@@ -506,77 +513,6 @@ header nav ul li a{
 
 
 
-/*------------------------------------------------------------mobile-index-pictures*/
-
-
-
-
-
-/*------------------------------------------------------------mobile-sections*/
-
-
-
-
-
-
-
-
-/*------------------------------------------------------------mobile-map*/
-
-/*-.map{
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20%;
-}
-
-
-.mapPosition h1{
-  background-color: #fff;
-  border: black solid 2px;
-  text-align: center;
-  font-size: 25px;
-  text-transform: uppercase;
-}
-
-.bordo{
-    border: 1px black solid;
-}*/
-
-
-
-/*------------------------------------------------------------mobile whyJordans Page*/
-
-
-
-
-
-
-/*-----------------------------------------------------------mobile-contacts-Page*/
-
-
-
-
-
-/*------------------------------------------------------------mobile-Jordan_in-Page*/
-
-
-
-
-
-/*------------------------------------------------------------mobile-Jordan_out-Page*/
-/*-----------------------------------------Jordan for women--*/
-
-
-
-
-
-/*-------------------------------------------------------------------mobile cards styling */
-
-
-
-   
-}
 
 
 
