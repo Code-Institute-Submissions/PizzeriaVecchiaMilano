@@ -272,14 +272,14 @@ footer{
 /*-----------------------------------------------------------------------map*/
 
 
-.mapPosition{
-  text-transform: uppercase; 
+.mapTitle{
+  font-size: 30px; 
+  text-transform: uppercase;
   text-align: center;  
   font-family: "sans-serif", cursive;
   display: inline-block;
-  font-size: 30px;
   font-weight: 700;
-  margin-left: 600px;
+  width: 100%;
 }
 
 
@@ -296,9 +296,7 @@ footer{
 }
 
 
-.mapPosition h1{
-    text-align: center;
-}
+
 
 
 /*-----------------------------------------------------------------menu.html*/
@@ -309,11 +307,6 @@ footer{
     margin-bottom: 100px;
 }
 
-
-/*--.menuList{
-    color: #a60000 ;
-    font-weight: 900;
-}--*/
 
 
 
@@ -363,6 +356,7 @@ footer{
     line-height: 0;
     column-count: 4;
     column-gap: 0px;
+    
 }
 
 #photo img{
@@ -468,11 +462,10 @@ div h6{
     text-align: center;
 }
 
-/*----------------------------------------------------------------------------------------------------mobile*/
+
+
+/*---------------------------------------------------------mobile-header-nav*/
 @media (max-width:991px){
-
-
-/*------------------------------------------------------------mobile-header-nav*/
 
 
 header{
@@ -512,13 +505,6 @@ header nav ul li a{
 }
 
 
-
-
-
-
-
-/*--------------------------------------------------------------------------home page cards responsivity */
-/*--the cards are an adjustment of the previous homepage that was completely different (lot of empty white space)*/
 
 @media (max-width: 576px) {  
   .xs {color:red;font-weight:bold;}
@@ -560,29 +546,14 @@ header nav ul li a{
 }
 
 
-.mapPosition{
-  text-align: center;  
-  margin-left: 75px;
-  font-size: 30px;
-}
-
-
-
+.mapTitle h1{
+  font-size: 25px; 
+}  
 
 #map{
-  margin-top: 15px;
-  margin-bottom: 80px;
-  margin-left:  auto;
-  margin-right: auto;
-  width: 70%; 
-  height: 300px;
+    margin-bottom: 80px;
 }
 
-
-.mapPosition h1{
-    font-size: 20px;
-    text-align: center;
-}
 
 
 
@@ -605,6 +576,7 @@ header nav ul li a{
     line-height: 0;
     column-count: 2;
     column-gap: 0px;
+    height: 100%;
 }
 
 #photo img{
@@ -616,6 +588,7 @@ header nav ul li a{
 
 .order-form{
     width: 300px;
+    height: 100%;
 }
 
 
@@ -626,20 +599,87 @@ header nav ul li a{
 @media (min-width: 576px) and (max-width:768px) {  
   .sm {color:red;font-weight:bold;}
 
+/*------------------------------------------------------------SM--index-Page*/
 
-/*----------------------------------------------------------SM--index-Page*/
-.top-pic img{
-    margin-top: 4%;
+
+.names{
+    margin-top: 70px;
+}
+
+
+.name1 h2{
+   font-size: 40px; 
+}
+
+
+.name2 h3{
+   font-size: 30px;
+   margin-top: 20px;
+}
+
+
+.carousel{
+    height: 280px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+
+.prize{
+    width: 20%;
+    margin-bottom: 40px;
 }
 
 
 
-/*----------------------------------------------------------SM--Jordan_in-Page*/
+.prize img{
+    width: 100%;
+    height: 70px;
+}
 
 
 
-/*----------------------------------------------------------SM--contacts-Page*/
 
+#map{
+    margin-bottom: 80px;
+}
+
+
+
+
+/*---------------------------------------------------------SM--ourstory Page*/
+
+
+.story{
+    margin: 8%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+/*----------------------------------------------------------SM--gallery Page*/
+
+#photo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+    height: 100%;
+}
+
+#photo img{
+    
+    height: 140px;
+}
+/*-----------------------------------------------------SM--order online Page*/
+
+
+.order-form{
+    width: 300px;
+    height: 100%;
+}
 
 
 
@@ -649,18 +689,87 @@ header nav ul li a{
 @media (min-width: 768px) and (max-width:992px) {  
  .md {color:red;font-weight:bold;}
 
-/*----------------------------------------------------------MD--index-Page*/
-.top-pic img{
-    margin-top: 3%;
+/*------------------------------------------------------------MD--index-Page*/
+
+
+.names{
+    margin-top: 70px;
 }
 
-/*----------------------------------------------------------MD--contacts-Page*/
 
-.signup-form{
-    margin-top: 200px;
-    margin-bottom: 200px;
-    height: 600px;
+.name1 h2{
+   font-size: 40px; 
 }
+
+
+.name2 h3{
+   font-size: 30px;
+   margin-top: 20px;
+}
+
+
+.carousel{
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+
+.prize{
+    width: 20%;
+    margin-bottom: 60px;
+}
+
+
+
+.prize img{
+    width: 100%;
+    height: 130px;
+}
+
+
+
+
+#map{
+    margin-bottom: 80px;
+}
+
+
+
+
+/*---------------------------------------------------------MD--ourstory Page*/
+
+
+.story{
+    margin: 8%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+/*----------------------------------------------------------MD--gallery Page*/
+
+#photo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+#photo img{
+    
+    height: 140px;
+}
+/*-----------------------------------------------------MD--order online Page*/
+
+
+.order-form{
+    width: 350px;
+    height: 100%;
+}
+
 }
  
 /* Large devices (desktops, 992px and up) */

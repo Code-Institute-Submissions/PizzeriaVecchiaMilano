@@ -9,23 +9,17 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css"/>
         <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("user_DTwy4wwA6ANnZa1eAZBnG");
-   })();
-</script>
-
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+               emailjs.init("user_DTwy4wwA6ANnZa1eAZBnG");
+            })();
+        </script>
     </head>
-    
     <body>
-         
-        <!--About header and nav I helped myself following a guided video found on youtube.com (https://youtu.be/gt8zOLQ8A0w).
-            I liked this tutorials because was showing in a simple way how to build a toggle menu that appear only 
-            for smaller screens-->
+        <!--I built header and nav following a guided video found on youtube.com (https://youtu.be/gt8zOLQ8A0w).
+            I liked this tutorials because was showing in a simple way how to build a toggle menu that appear only for smaller screens-->
         <header>
             <a href="index.html">
                 <div class="logo"><i>Vecchia Milano</i></div>
@@ -35,71 +29,49 @@
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="ourstory.html">Our Story</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="orderonline.html"><div class="btn btn-success"><h5>Order  Online</h5></div></a></li>
+                    <li>
+                        <a href="orderonline.html">
+                            <div class="btn btn-success">
+                                <h5>Order  Online</h5>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i>
             </div>
         </header>
-        
-
-
-<!--<form class="formPosition">
-<h2>Want to eat at home?</h2>
-<div class="formGroup">
-    <label for="exampleFormControlInput1">Name</label>
-    <input type="text" class="form-control" id="FormControlName" placeholder="Name, Phone Number">
-  </div>
-  
-  <div class="formGroup">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="FormControlEmail" placeholder="name@example.com">
-  </div>
-  
-  <div class="formGroup">
-    <label for="exampleFormControlTextarea1">Place Your Order</label>
-    <textarea class="form-control" id="textArea1" rows="3"></textarea>
-  </div>
-</form>-->
-
-
-
-
-
-
-<form onsubmit="return sendMail(this);" class="order-form" ><!--action="https://formdump.codeinstitute.net/"-->
-                <h2>Want to eat at home?</h2>
-                <h2>Send us your order!</h2>
-                
-                <label for="name">Name, Phone Number</label><br>
-                <input class="text-input" id="name" type="text" name="name" placeholder="Name, Phone Number" required>
-                
-                <label for="email">Email Address</label>
-                <input class="text-input" id="email" type="email" name="emailaddress" placeholder="name@example.com" required>
-                
-              <!--  <label for="idea">Describe Your Shoes</label>
-                <input class="placeOrder" id="order" type="text" name="idea" rows="3" required>-->
-                
-                <label for="textArea">Place Your Order</label>
-    <textarea name="textArea" class="placeOrder" id="textArea" rows="3" 
-    placeholder=
-    "Example:
-    2x Margherita
-    1x Diavola
-    3x Napoletana
-    2x Tiramisu" required></textarea>
-
-                <label for="in">Delivery</label>
-                <input id="in" type="radio" name="pizza" value="in" required>
-                <label for="out">Pick up in Pizzeria</label>
-                <input id="out" type="radio" name="pizza" value="out">
-                <input class="my-button" type="submit" value="Send order!">
-                
-   <div><h6>After you click on Send order!, you will receive an email confirmation with your order description and your balance</h6></div>
-            </form>
-
-<!--I built a very simple footer. 
-            I just took example from the repos we did during the course with placing some social-network icons-->     
+        <!--The form was initially taken from the Bootstrap library but then I cut the unnecessary parts that I didn't need, keeping two labels
+            for the customer information and an expandable text area for placing the orders.
+            The form is connected to the EmailJS service.
+            When you click on the green button (Send Order!), this service, through the sendEmail.js file, makes sure that when an order is placed,
+            one automatic email is going to be send to the Pizzeria and one automatic email confirmation back to the customer who place the order-->
+        <form onsubmit="return sendMail(this);" class="order-form" >
+            <h2>Want to eat at home?</h2>
+            <h2>Send us your order!</h2>
+            <label for="name">Name, Phone Number</label><br>
+            <input class="text-input" id="name" type="text" name="name" placeholder="Name, Phone Number" required>
+            <label for="email">Email Address</label>
+            <input class="text-input" id="email" type="email" name="emailaddress" placeholder="name@example.com" required>
+            <label for="textArea">Place Your Order</label>
+            <textarea name="textArea" class="placeOrder" id="textArea" rows="3" 
+                placeholder=
+                "Example:
+2x Margherita
+1x Diavola
+3x Napoletana
+2x Tiramisu" required></textarea>
+            <label for="in">Delivery</label>
+            <input id="in" type="radio" name="pizza" value="in" required>
+            <label for="out">Pick up in Pizzeria</label>
+            <input id="out" type="radio" name="pizza" value="out">
+            <input class="my-button" type="submit" value="Send order!">
+            <div>
+                <h6>After you click on Send order!, you will receive an email confirmation with your order description and your balance</h6>
+            </div>
+        </form>
+        <!--I built a very simple footer. 
+            I just took example from the repos we did during the course and placed the most popular social-network icons-->      
         <footer>
             <ul class="socialnet">
                 <li>
@@ -124,7 +96,8 @@
                 </li>
             </ul>
         </footer>
-        
+        <!--The jQuery library links and the js files are placed at the end of the document to be loaded for last-->
+        <!--The jQuery link of the toggle menu and its funcion below-->
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
@@ -133,8 +106,7 @@
             })
             })
         </script>
-<script src="assets/js/sendEmail.js"></script>
-
+        <!--Javascript file sources for EmailJS service-->
+        <script src="assets/js/sendEmail.js"></script>
     </body>
-    
-    </html>
+</html>
