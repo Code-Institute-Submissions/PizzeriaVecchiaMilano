@@ -9,12 +9,9 @@ const slideWidth = slides[0].getBoundingClientRect().width;
 //console.log(slideWidth);
 
 //arrange the slides next to one another
-
-
 const setSlidePosition = (slide, index) => {
     slide.style.left = slideWidth * index + 'px';
 };
-
 slides.forEach(setSlidePosition);
 
 const moveToSlide = (track, currentSlide, targetSlide) => {
@@ -32,7 +29,7 @@ const hideShowArrows = (slides, prevButton, nextButton, targetIndex) => {
     if (targetIndex === 0){
         prevButton.classList.add('is-hidden');
         nextButton.classList.remove('is-hidden');
-    }   else if (targetIndex === slides.lenght -1){
+    }   else if (targetIndex === slides.lenght -1) {
         prevButton.classList.remove('is-hidden');
         nextButton.classList.add('is-hidden');
     }   else {
@@ -40,7 +37,6 @@ const hideShowArrows = (slides, prevButton, nextButton, targetIndex) => {
         nextButton.classList.remove('is-hidden');
     }
 }
-
 
 
 //when I click left, move slides to the left
@@ -85,7 +81,7 @@ dotsNav.addEventListener('click', e => {
 
     moveToSlide(track, currentSlide, targetSlide);
     updateDots(currentDot, targetDot);
-    hideShowArrows(slides, prevButton, nextButton, targetIndex)
+    hideShowArrows(slides, prevButton, nextButton, targetIndex);
 
     
  })

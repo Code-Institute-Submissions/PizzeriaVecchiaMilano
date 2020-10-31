@@ -322,6 +322,13 @@ footer{
 }
 
 
+#menuPhoto{
+    display: none;
+}
+
+
+
+
 /*-------------------------------------------------------------ourstory Page*/
 
 
@@ -357,6 +364,7 @@ footer{
     column-count: 4;
     column-gap: 0px;
     
+    
 }
 
 #photo img{
@@ -366,37 +374,6 @@ footer{
 
 
 /*---------------------------------------------------------order online.html*/
-/*--form{
-    width: 80%;
-    margin: 90px auto;
-    font-family: 'Times New Roman', serif;
-    background-color: #eb1c1c; 
-    color: black;
-    
-}
-
-
-.formPosition h2{
-    text-align: center;
-    margin-bottom: 40x;
-    font-weight: 800;
-}
-.formPosition{
-    margin-left: auto;
-    margin-right: auto; 
-    margin-top: 65px;
-    margin-bottom: 65px;
-    color: #fff;
-    background-color: rgba(60, 60, 60, .6);
-    width: 500px;
-    padding-left: 10px;
-    
-}
-
-.formPosition .formGroup{
- 
-}--*/
-
 
 .order-form{
              
@@ -576,7 +553,7 @@ header nav ul li a{
     line-height: 0;
     column-count: 2;
     column-gap: 0px;
-    height: 100%;
+    
 }
 
 #photo img{
@@ -661,12 +638,12 @@ header nav ul li a{
 
 #photo {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 0px;
-    height: 100%;
+    
 }
 
 #photo img{
@@ -751,11 +728,12 @@ header nav ul li a{
 
 #photo {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 0px;
+    
 }
 
 #photo img{
@@ -787,3 +765,6 @@ header nav ul li a{
 
 
 }
+}
+
+
