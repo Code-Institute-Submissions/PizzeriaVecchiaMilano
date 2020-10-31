@@ -353,6 +353,13 @@ footer{
 }
 
 
+
+.videostory{
+    width: 80%; 
+    height: 100px;
+}
+
+
 /*--------------------------------------------------------------gallery.html*/
 
 
@@ -638,7 +645,7 @@ header nav ul li a{
 
 #photo {
     margin-top: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     clear: both;
     line-height: 0;
     column-count: 3;
@@ -648,7 +655,7 @@ header nav ul li a{
 
 #photo img{
     
-    height: 140px;
+    height: 150px;
 }
 /*-----------------------------------------------------SM--order online Page*/
 
@@ -728,7 +735,7 @@ header nav ul li a{
 
 #photo {
     margin-top: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     clear: both;
     line-height: 0;
     column-count: 3;
