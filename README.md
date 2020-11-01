@@ -2,10 +2,10 @@
 # Pizzeria Vecchia Milano
 
 This is the source code of the Pizzeria Vecchia Milano. 
-The website aims to easily display the content, and facilitate customers to make their choice or to place their own order.
-This website also tells who are the protagonist and how they work.
 
-This website is suitable for everyone who want to enjoy a delicious pizza in our pizzeria or on your own couch at home
+The website aims to easily display the content, and facilitate customers to make their choice and to place their own order.
+
+This website is suitable for everyone who want to enjoy a delicious pizza in the pizzeria or at home.
 
 To see it in action just click this [link](https://omarbedawi.github.io/PizzeriaVecchiaMilano/)
 
@@ -13,7 +13,7 @@ To see it in action just click this [link](https://omarbedawi.github.io/Pizzeria
 ## Installation
 
 In the head of the project I have installed the links to have access to different libraries. 
-![head](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/screenshot_readMe_file/1head&mail.png?raw=true)
+![head](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/1head&mail.png?raw=true)
 
 1. Bootstap 4: a library with templates for buttons, forms, jumbotrons and so many other components. For this project for example I used it to build the responsive navigation bar and the green button on the navabar.
 1. Font Awesome: is an icon library. 
@@ -22,7 +22,7 @@ In the head of the project I have installed the links to have access to differen
   This service, every time an order is sent, make sure to send an email with the order to the pizzeria, and a confirmation email to the customer.
 1. At the bottom of the page is where the javascript files are located. In every page html page for example there is the <script> to make the navbar responsive for every screen size. 
   
-![javascript](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/screenshot_readMe_file/2javascript_bottom.png?raw=true)
+![javascript](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/2javascript_bottom.png?raw=true)
 
 I built a responsive navbar, that shows a toggle menu when the screen size is below 991px. 
 
@@ -37,6 +37,11 @@ To build it I followed an accurate and guided tutorial that you can find at this
 
 I built the wireframes using the balsamiq.cloud service.
 
+![Home](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/1homepage.png?raw=true)
+![menu](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/2menu.png?raw=true)
+![story](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/3ourstory.png?raw=true)
+![gallery](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/4gallery.png?raw=true)
+![order](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/5orderon-line.png?raw=true)
 
 
 
