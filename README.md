@@ -46,7 +46,6 @@ I built the wireframes using the balsamiq.cloud service.
 
 
 
-The homepage 
 The homepage presents a carousel with pictures followed by the awards won by the pizzeria and a position map.
 
 The Indoor and the Outdoor pages are the most important because is where our products are exposed.
