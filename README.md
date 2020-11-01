@@ -1,3 +1,154 @@
+
+# Pizzeria Vecchia Milano
+
+This is the source code of the Pizzeria Vecchia Milano. 
+The website aims to easily display the content, and facilitate customers to make their choice or to place their own order.
+This website also tells who are the protagonist and how they work.
+
+This website is suitable for everyone who want to enjoy a delicious pizza in our pizzeria or on your own couch at home
+
+To see it in action just click this [link](https://omarbedawi.github.io/PizzeriaVecchiaMilano/)
+
+
+## Installation
+
+In the head of the project I have installed the links to have access to different libraries. 
+![head](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/screenshot_readMe_file/1head&mail.png?raw=true)
+
+1. Bootstap 4: a library with templates for buttons, forms, jumbotrons and so many other components. For this project for example I used it to build the responsive navigation bar and the green button on the navabar.
+1. Font Awesome: is an icon library. 
+1. Cdnjs is a Javascript library and below the external link to the style.css file.
+1. In the <head> of the orderonline page there is the link to connect to the sendEmailJs service.
+  This service, every time an order is sent, make sure to send an email with the order to the pizzeria, and a confirmation email to the customer.
+1. At the bottom of the page is where the javascript files are located. In every page html page for example there is the <script> to make the navbar responsive for every screen size. 
+  
+![javascript](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/screenshot_readMe_file/2javascript_bottom.png?raw=true)
+
+I built a responsive navbar, that shows a toggle menu when the screen size is below 991px. 
+
+To build it I followed an accurate and guided tutorial that you can find at this [link](https://youtu.be/gt8zOLQ8A0w)
+
+
+
+
+## UX
+
+### WIREFRAMES
+
+I built the wireframes using the balsamiq.cloud service.
+
+
+
+
+
+The homepage 
+The homepage presents a carousel with pictures followed by the awards won by the pizzeria and a position map.
+
+The Indoor and the Outdoor pages are the most important because is where our products are exposed.
+In our pages you can find shoes for players, but also for who want to wear a pair of Jordans even out of the basket-ball court.
+
+The WhyJordan page is explaining why the Jordans are so competitive on the market and some info on Michael Jordan.
+
+In the contact us page we dedicate a space to our customer to expose ideas regarding any customization of Jordan shoes
+
+The CSS file is divided by comments, that I used as title to separate the pages.
+This make any future correction or research much easier ![css](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/myfolder/pictures/jordan-css.png)
+And I did the same for the mobile and other screen sizes ![css2](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/jordan-mob.png?raw=true)
+
+For the Html files has been the same ![html](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/html.png?raw=true)
+Every element built, has a comment explaining the reasons and the source of that code
+
+### Users
+We are expecting users of any age, not with the mandatory to be a basketball fan but only pleasure for nice shoes.
+
+
+
+## Technologies Used
+
+This project makes use of:
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - HTML for strucutre
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+    - CSS for Styling
+- [JavaScript](https://www.w3schools.com/jsref/)
+    - **JavaScript** for application controller
+- [JQuery](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+- [Google Chrome](https://www.google.com/chrome/)
+    - Used for browser and dev tools
+- [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new)
+    - Used for browser and dev tools
+- [Google](https://www.google.com/)
+    - **Google** was used for research.
+- [Bootstrap](https://getbootstrap.com/)
+    - HTML and CSS Framework from **Bootstrap**
+    - This project was built using the **Gitpod** IDE
+- [Git](https://git-scm.com/)
+    - **Git** used for Version Control
+- [GitHub](https://github.com/)
+    - Repository hosted on **GitHub**
+- [Github Pages](https://pattern-projects.github.io/oireachtas-ifd-project/)
+    - Website hosted on **Github Pages**
+
+
+
+
+## Testing
+
+The site was tested through the [W3C Markup Validator](https://validator.w3.org/#validate_by_input) for Html and Css.
+I had to correct an error in the <header>. Was about a <div> nested in <ul>.
+
+The validator still call as an error some of the classes regarding the map section.
+
+The project still presenting 2 little bugs in the contacs.html page: 
+1. in the form, the "Describe your shoes" area has the cursor not align at the top but in the middle
+1. the form is not having regular margin-bottom on all screen sizes despite I made lot of tentatives
+
+The site was also tested through different browser (Mozilla Firefox, Google Chrome and Internet Explorer) and different screen sizes
+![here](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/screens.png?raw=true)
+
+## Deployment
+
+The project is hosted on [GitHub Pages](https://github.com/OmarBedawi/Jordans)
+
+The process involved:
+- Host a git repository on GitHub. Explained [here](https://help.github.com/en/articles/create-a-repo).
+- The root folder contains README.md and index.html files
+- On GitHub repository settings page move to GitHub Pages section
+- Change source to master branch. (Or any desired branch)
+- Provided link will be your projects home (index.html) page.
+ 
+To deploy your own version of the website:
+- Have git installed
+- Visit the [repository]([GitHub](https://github.com/OmarBedawi/Jordans))
+- Click 'Clone or download' and copy the code for http
+- Open your chosen IDE (in my case Gitpod)
+- Open a terminal in your root directory
+- Type 'git clone ' followed by the code taken from github repository
+    - ```git clone https://github.com/OmarBedawi/Jordans-ifd-project.git```
+- When this completes you have your own version of the website
+    - Feel free to make any changes to it
+- The website can be run by opening one of the HTML files within a web browser
+- Visit the link provided
+- Your website with any made changes will appear
+- Saved changes to the website will appear here after refreshing the page
+
+The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.
+
+It may take a moment for changes to appear on the hosted website.
+
+During development the site is written in Gitpod.
+
+### Acknowledgements
+Thank you to the following for inspiration, motivation and the direction I needed:
+
+- Seun Owonikoko    @seun_mentor
+- Code Institute staff
+
+
+
+
+
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
 Welcome OmarBedawi,
@@ -41,3 +192,8 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+
+
+
+
