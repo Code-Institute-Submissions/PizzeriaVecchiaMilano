@@ -60,13 +60,12 @@ The CSS file is divided by comments, that I used as title to separate the html p
 
 This make any future correction or research much easier 
 
-![css]((https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/css_comments.png?raw=true))
+![css](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/css_comments.png?raw=true)
 
 
-![css2]((https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/css_screens.png?raw=true))
+![css2](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/css_screens.png?raw=true)
 
-For the Html files has been the same ![html](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/html.png?raw=true)
-Every element built, has a comment explaining the reasons and eventually the source of that code
+
 
 ### Users
 We are expecting users of any age, not with the mandatory to be a basketball fan but only pleasure for nice shoes.
