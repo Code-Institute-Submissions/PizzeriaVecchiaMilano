@@ -48,19 +48,22 @@ I built the wireframes using the balsamiq.cloud service.
 
 The homepage presents a carousel with pictures followed by the awards won by the pizzeria and a position map.
 
-The menu page gives the possibility to see a pizza when you hover the mouse on it: infact an image will appear.
+The menu page gives the possibility to see a pizza when you hover the mouse on it: infact an image of the pizza you are hovering on, will appear.
 
-The ourstory page is telling a piece of history of the pizzeria. At the bottom of the page there is also a little video about pizza preparation.
+The ourstory page is telling a piece of history of the pizzeria. At the bottom of the page there is also a short video of them in action.
 
-The gallery page is a sort of memories page for the customers who want to share their time in the pizzeria.
+The gallery page is a collection of pictures shared by the pizzeria staff and the customers.
 
-The order on line page is for who want a home delivery or to pick up at the pizzeria.
+The order on-line page is for who want a home delivery or to pick up at the pizzeria.
 
-The CSS file is divided by comments, that I used as title to separate the pages.
+The CSS file is divided by comments, that I used as title to separate the html pages or elements like map and carousel and the different screen sizes
 
-This make any future correction or research much easier ![css](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/myfolder/pictures/jordan-css.png)
+This make any future correction or research much easier 
 
-And I did the same for the mobile and other screen sizes ![css2](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/jordan-mob.png?raw=true)
+![css]((https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/css_comments.png?raw=true))
+
+
+![css2]((https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/css_screens.png?raw=true))
 
 For the Html files has been the same ![html](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/html.png?raw=true)
 Every element built, has a comment explaining the reasons and eventually the source of that code
