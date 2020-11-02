@@ -37,7 +37,7 @@ To build it I followed an accurate and guided tutorial that you can find at this
 
 I built the wireframes using the balsamiq.cloud service.
 
-![Home](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/1homepage.png?raw=true)
+![home](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/1homepage.png?raw=true)
 ![menu](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/2menu.png?raw=true)
 ![story](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/3ourstory.png?raw=true)
 ![gallery](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/4gallery.png?raw=true)
@@ -48,19 +48,25 @@ I built the wireframes using the balsamiq.cloud service.
 
 The homepage presents a carousel with pictures followed by the awards won by the pizzeria and a position map.
 
-The Indoor and the Outdoor pages are the most important because is where our products are exposed.
-In our pages you can find shoes for players, but also for who want to wear a pair of Jordans even out of the basket-ball court.
+The menu page gives the possibility to see a pizza when you hover the mouse on it: infact an image of the pizza you are hovering on, will appear.
 
-The WhyJordan page is explaining why the Jordans are so competitive on the market and some info on Michael Jordan.
+The ourstory page is telling a piece of history of the pizzeria. At the bottom of the page there is also a short video of them in action.
 
-In the contact us page we dedicate a space to our customer to expose ideas regarding any customization of Jordan shoes
+The gallery page is a collection of pictures shared by the pizzeria staff and the customers.
 
-The CSS file is divided by comments, that I used as title to separate the pages.
-This make any future correction or research much easier ![css](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/myfolder/pictures/jordan-css.png)
-And I did the same for the mobile and other screen sizes ![css2](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/jordan-mob.png?raw=true)
+The order on-line page is for who want a home delivery or to pick up at the pizzeria.
+
+The CSS file is divided by comments, that I used as title to separate the html pages or elements like map and carousel and the different screen sizes
+
+This make any future correction or research much easier 
+
+![css]((https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/css_comments.png?raw=true))
+
+
+![css2]((https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/css_screens.png?raw=true))
 
 For the Html files has been the same ![html](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/html.png?raw=true)
-Every element built, has a comment explaining the reasons and the source of that code
+Every element built, has a comment explaining the reasons and eventually the source of that code
 
 ### Users
 We are expecting users of any age, not with the mandatory to be a basketball fan but only pleasure for nice shoes.
