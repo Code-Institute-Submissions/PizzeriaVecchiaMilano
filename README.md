@@ -24,29 +24,15 @@ In the head of the project I have installed the links to have access to differen
   
 ![javascript](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/2javascript_bottom.png?raw=true)
 
-I built a responsive navbar, that shows a toggle menu when the screen size is below 991px. 
-
-To build it I followed an accurate and guided tutorial that you can find at this [link](https://youtu.be/gt8zOLQ8A0w)
-
-
 
 
 ## UX
 
-### WIREFRAMES
+I built a responsive navbar, that shows a toggle menu when the screen size is below 991px. 
 
-I built the wireframes using the balsamiq.cloud service.
+To build it I followed an accurate and guided tutorial that you can find at this [link](https://youtu.be/gt8zOLQ8A0w)
 
-![home](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/1homepage.png?raw=true)
-![menu](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/2menu.png?raw=true)
-![story](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/3ourstory.png?raw=true)
-![gallery](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/4gallery.png?raw=true)
-![order](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/5orderon-line.png?raw=true)
-
-
-
-
-The homepage presents a carousel with pictures followed by the awards won by the pizzeria and a position map.
+The homepage presents a carousel with pictures followed by the awards won by the pizzeria and a google map.
 
 The menu page gives the possibility to see a pizza when you hover the mouse on it: infact an image of the pizza you are hovering on, will appear.
 
@@ -67,9 +53,24 @@ This make any future correction or research much easier
 
 
 
-### Users
-We are expecting users of any age, not with the mandatory to be a basketball fan but only pleasure for nice shoes.
 
+
+### WIREFRAMES
+
+I built the wireframes using the balsamiq.cloud service.
+
+![home](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/1homepage.png?raw=true)
+![menu](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/2menu.png?raw=true)
+![story](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/3ourstory.png?raw=true)
+![gallery](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/4gallery.png?raw=true)
+![order](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/5orderon-line.png?raw=true)
+
+
+
+
+### Users
+
+The website is preferably for 16 years old or older.
 
 
 ## Technologies Used
@@ -86,6 +87,8 @@ This project makes use of:
 - [Google Chrome](https://www.google.com/chrome/)
     - Used for browser and dev tools
 - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new)
+    - Used for browser and dev tools
+- [Microsoft Edge](https://www.microsoft.com/en-us)
     - Used for browser and dev tools
 - [Google](https://www.google.com/)
     - **Google** was used for research.
@@ -104,14 +107,68 @@ This project makes use of:
 
 ## Testing
 
-The site was tested through the [W3C Markup Validator](https://validator.w3.org/#validate_by_input) for Html and Css.
-I had to correct an error in the <header>. Was about a <div> nested in <ul>.
+The code was tested through the [W3C Markup Validator](https://validator.w3.org/#validate_by_input) for Html and Css.
 
-The validator still call as an error some of the classes regarding the map section.
 
-The project still presenting 2 little bugs in the contacs.html page: 
-1. in the form, the "Describe your shoes" area has the cursor not align at the top but in the middle
-1. the form is not having regular margin-bottom on all screen sizes despite I made lot of tentatives
+Responsive Navbar:
+1. Go to any html page.
+1. Try to reduce the screen size to any size below 991px and verify that a toggle menu appears on the top right angle of the screen.
+1. Try to click on the toggle menu and verify that a list with all the pages of the website appears to you.
+1. Try to click on every page provided by the toggle menu and verify that the pages are all connected and reachable from any other page.
+
+
+
+Carousel:
+1. Go to the "index" page.
+1. Click on the right arrow of the carousel and verify that the second image slide to the center of the carousel.
+1. Click on the right arrow of the carousel and verify that the left arrow appears.
+1. After the first click on the right arrow, click on left arrow to go back to the first picture, and verify that the left arrow disappears.
+1. Click on the right arrow until you reach the last picture, and verify that the right arrow disappears.
+
+
+Video:
+1. Go to the "our story" page.
+1. Scroll to the end of the page where the video is placed, try to click on the "play" command and verify that the video is playing.
+
+
+Gallery:
+1. Go to the "gallery" page.
+1. Set the size of the screen to at least 992px and verify that every raw has 4 column of pictures.
+1. Set the size of the screen between 576px and 992px and verify that every raw has 3 column of pictures.
+1. Set the size of the screen to less than 576px and verify that every raw has 2 column of pictures.
+
+
+Contact form:
+1. Go to the "Order on-line" page.
+1. Try to submit the form with empty fields and verify that an error message about the required fields appears.
+1. Try to submit the form with an invalid email address and verify that a relevant error message appears.
+1. Try to submit the form with all inputs valid (and a valid email ) and verify that a confirmation email is sent to the email address provided.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 The site was also tested through different browser (Mozilla Firefox, Google Chrome and Internet Explorer) and different screen sizes
 ![screens](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/responsive.png?raw=true)
