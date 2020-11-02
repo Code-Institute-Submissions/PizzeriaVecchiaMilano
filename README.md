@@ -114,7 +114,7 @@ Responsive Navbar:
 1. Go to any html page.
 1. Try to reduce the screen size to any size below 991px and verify that a toggle menu appears on the top right angle of the screen.
 1. Try to click on the toggle menu and verify that a list with all the pages of the website appears to you.
-1. Try to click on every page provided by the toggle menu and verify that the pages are all connected and reachable from any other page.
+1. Try to click on every page provided by the toggle menu and verify that the pages are all connected between each other and reachable from any other page.
 
 
 
@@ -170,7 +170,7 @@ Contact form:
 
 
 
-The site was also tested through different browser (Mozilla Firefox, Google Chrome and Internet Explorer) and different screen sizes
+The site was also tested through different browser (Mozilla Firefox, Google Chrome and Microsoft Edge) and different screen sizes
 ![screens](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/responsive.png?raw=true)
 
 ## Deployment
