@@ -342,6 +342,7 @@ footer {
 .menu {
     margin-top: 100px;
     margin-bottom: 100px;
+    font-size: 35px;
 }
 
 .price p {
@@ -351,12 +352,41 @@ footer {
 
 .sectionMenu {
     margin-bottom: 400px;
+    
 }
+
+.col-12{
+    margin-bottom: 70px;
+}
+
 
 #menuPhoto {
     display: none;
 }
 
+
+.menuButton{
+    background-color: #a60000;
+    color: #fafafa;
+}
+
+/*
+#button1{
+    width: 80%;
+    height: 300px;
+}
+
+
+#button2{
+    width: 80%;
+    height: 300px;
+}
+*/
+
+.buttonSize{
+    width: 80%;
+    height: 300px;
+}
 
 /*-------------------------------------------------------------ourstory Page*/
 
@@ -378,11 +408,23 @@ footer {
     margin-bottom: 3%;
     font-size: 20px;
     word-spacing: 5px;
+    text-align: justify;
 }
 
 
+.storyPhoto img{
+    float: right;
+    width: 48%;
+    height: 380px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
 
 
+#justifyText{
+    text-align: justify;
+    
+}
 
 /*--------------------------------------------------------------gallery Page*/
 
@@ -562,6 +604,12 @@ div h6 {
             margin-top: 70px;
             margin-bottom: 70px;
         }
+
+        .storyPhoto img{
+            display: none;
+        }
+
+
         video {
             width: 100%;
             margin-left: 0;
@@ -654,6 +702,16 @@ div h6 {
             margin-top: 70px;
             margin-bottom: 70px;
         }
+
+
+        .storyPhoto img{
+            height: 350px;
+            margin-top: 130px;
+        }
+
+        .par h1 {
+            font-size: 32px;
+}
 
         video {
             width: 90%;
@@ -753,6 +811,14 @@ div h6 {
             margin-bottom: 70px;
         }
 
+
+        .storyPhoto img{
+            height: 420px;
+            width: 50%;
+            margin-top: 80px;
+        }
+
+
         video {
             width: 70%;
             margin-left: 100px;
@@ -793,6 +859,14 @@ div h6 {
         .medium{
             display: none;
         }
+        
+
+        .storyPhoto img{
+            height: 500px;
+            width: 54%;
+            margin-top: 100px;
+        }
+
 
         video {
             width: 60%;
@@ -820,6 +894,13 @@ div h6 {
         .medium{
             display: none;
         }
+
+
+        .storyPhoto img{
+            margin-top: 98px;
+        }
+
+
         video {
             
             margin-left: 220px;
