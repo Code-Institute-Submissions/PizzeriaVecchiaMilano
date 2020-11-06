@@ -343,6 +343,7 @@ footer {
     margin-top: 100px;
     margin-bottom: 100px;
     font-size: 35px;
+    width: 100%;
 }
 
 .price p {
@@ -352,7 +353,6 @@ footer {
 
 .sectionMenu {
     margin-bottom: 400px;
-    
 }
 
 .col-12{
@@ -598,6 +598,20 @@ div h6 {
         #map {
             margin-bottom: 80px;
         }
+                
+                
+        /*---------------------------------------------------------XS------menu Page*/
+
+        .menuList p{
+            width: 100%;
+            font-size: 30px;
+        }
+        
+        .price img{
+            width: 100%;
+        }
+
+
         /*---------------------------------------------------------XS--ourstory Page*/
         .story {
             margin: 8%;
@@ -606,7 +620,9 @@ div h6 {
         }
 
         .storyPhoto img{
-            display: none;
+            float: right;
+            height: 280px;
+            margin-top: 120px;
         }
 
 
@@ -627,13 +643,16 @@ div h6 {
             column-gap: 0px;
         }
         #photo img {
-            height: 200px;
+            height: 230px;
         }
         /*-----------------------------------------------------XS--order online Page*/
-        .order-form {
-            width: 300px;
+        #order-form {
+            
+            width: 90%;
             height: 100%;
         }
+
+       
     }
     /* Small devices (landscape phones, 576px and up) */
     @media (min-width: 576px) and (max-width:768px) {
@@ -696,6 +715,20 @@ div h6 {
         #map {
             margin-bottom: 80px;
         }
+
+
+        /*---------------------------------------------------------SM------menu Page*/
+
+        .menuList p{
+            width: 100%;
+            font-size: 32px;
+        }
+        
+        .price img{
+            width: 100%;
+        }
+
+
         /*---------------------------------------------------------SM--ourstory Page*/
         .story {
             margin: 8%;
@@ -804,6 +837,16 @@ div h6 {
         #map {
             margin-bottom: 80px;
         }
+
+        /*---------------------------------------------------------MD------menu Page*/
+
+        .menuList p{
+            width: 100%;
+        }
+        
+        .price img{
+            width: 100%;
+        }
         /*---------------------------------------------------------MD--ourstory Page*/
         .story {
             margin: 8%;
@@ -835,7 +878,7 @@ div h6 {
             column-gap: 0px;
         }
         #photo img {
-            height: 200px;
+            height: 215px;
         }
         /*-----------------------------------------------------MD--order online Page*/
         .order-form {
