@@ -82,6 +82,16 @@ header nav ul li a:hover {
 }
 
 
+.menu-toggle {
+    color: #fff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+
 /*--------------------------------------------------------------------footer*/
 
 footer {
@@ -115,28 +125,6 @@ footer {
 
 /*----------------------------------------------------------------index Page*/
 
-.prize {
-    float: left;
-    width: 20%;
-    margin-left: 10%;
-    margin-bottom: 8%;
-    margin-top: 1%;
-}
-
-.prize img {
-    width: 100%;
-    height: 180px;
-}
-
-.menu-toggle {
-    color: #fff;
-    float: right;
-    line-height: 50px;
-    font-size: 24px;
-    cursor: pointer;
-    display: none;
-}
-
 .names {
     margin-top: 120px;
     margin-bottom: 80px;
@@ -155,12 +143,30 @@ footer {
 }
 
 
+.prize {
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    margin-top: 1%;
+}
+
+.prize img {
+    width: 100%;
+    height: 180px;
+}
+
+
+
+
+
+
 /*------------------------------------------------------------------carousel*/
 
 .carousel {
     position: relative;
     height: 600px;
-    width: 93%;
+    width: 90%;
     margin: 51px auto;
 }
 
@@ -240,78 +246,6 @@ footer {
 }
 
 
-/* Carousel */
-/*.carousel{
-    margin-left: 0px;
-}
-
-.container img{
-    width: 800px;
-    height: 100%;
-    object-fit: cover;
-}*/
-
-/*
-.slider {
-	background-color: #f7f7f7;
-	position: relative;
-	width: 100%;
-	height: 100%;
-	border-bottom: 10px solid #f7f7f7;
-	border-top: 10px solid #f7f7f7;
-    margin: 0 auto;
-}
-
-.slide {
-	text-align: center;
-	background: #f7f7f7;
-	display: none;
-	position: relative;
-	width: 100%;
-	height: 100%;
-}
-
-.active-slide {
-    display: block;
-}
-
-.slider-nav {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.arrow-prev {
-  margin-right: 45px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 9px;
-}
-
-.arrow-next {
-  margin-left: 45px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 9px;
-}
-
-.slider-dots {
-  list-style: none;
-  display: inline-block;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-.slider-dots li {
-  color: #bbbcbc;
-  display: inline;
-  font-size: 30px;
-  margin-right: 5px;
-}
-
-.slider-dots li.active-dot {
-  color: #363636;
-}
-*/
 
 
 /*-----------------------------------------------------------------------map*/
@@ -344,6 +278,7 @@ footer {
     margin-bottom: 100px;
     font-size: 35px;
     width: 100%;
+    
 }
 
 .price p {
@@ -505,42 +440,14 @@ div h6 {
 }
 
 
-/*---------------------------------------------------------mobile-header-nav*/
 
-/*@media (max-width:991px) {
-    header {
-        padding: 0 20px;
-    }
-    .menu-toggle {
-        display: block;
-    }
-    header nav {
-        position: absolute;
-        width: 100%;
-        height: calc(100vh - 50px);
-        background: #333;
-        top: 50px;
-        left: -100%;
-        transition: 0.5s;
-    }
-    header nav.active {
-        left: 0;
-    }
-    header nav ul {
-        display: block;
-        text-align: center;
-    }
-    header nav ul li a {
-        border-bottom: 1px solid rgba(0, 0, 0, .2);
-        border-top: 1px solid rgba(0, 0, 0, .2);
-    }
-}*/
 
     @media (max-width: 576px) {
         .xs {
             color: red;
             font-weight: bold;
         }
+        /*--------------------------------------------XS------header and toggle-menu*/
 
         header {
         padding: 0 20px;
@@ -584,6 +491,14 @@ div h6 {
             margin-top: 50px;
             width: 84%;
         }
+        .carousel__button--left{
+            display: none;
+        }
+
+        .carousel__button--right{
+            display: none;
+        }
+        
         .prize {
             width: 20%;
             margin-bottom: 40px;
@@ -620,9 +535,10 @@ div h6 {
         }
 
         .storyPhoto img{
-            float: right;
-            height: 280px;
-            margin-top: 120px;
+            width: 100%;
+            height: 300px;
+            margin-top: 50px;
+            margin-bottom: 50px;
         }
 
 
@@ -660,6 +576,7 @@ div h6 {
             color: red;
             font-weight: bold;
         }
+        /*--------------------------------------------SM------header and toggle-menu*/
 
         header {
         padding: 0 20px;
@@ -782,6 +699,7 @@ div h6 {
             color: red;
             font-weight: bold;
         }
+        /*--------------------------------------------MD------header and toggle-menu*/
 
         header {
         padding: 0 20px;
@@ -878,7 +796,7 @@ div h6 {
             column-gap: 0px;
         }
         #photo img {
-            height: 215px;
+            height: 230px;
         }
         /*-----------------------------------------------------MD--order online Page*/
         .order-form {
@@ -892,17 +810,15 @@ div h6 {
             color: red;
             font-weight: bold;
         }
-        /*----------------------------------------------------------LG--ourstory Page*/
+        /*-------------------------------------------------------------LG--index Page*/
         
         .carousel {
             width: 90%;
             height: 340px;
         }
         
-        .medium{
-            display: none;
-        }
         
+        /*----------------------------------------------------------LG--ourstory Page*/
 
         .storyPhoto img{
             height: 500px;
@@ -918,6 +834,13 @@ div h6 {
             height: 300px;
         }
 
+        /*-----------------------------------------------------------LG--gallery Page*/
+        
+        .medium{
+            display: none;
+        }
+        /*-----------------------------------------------------LG--order online Page*/
+
         .order-form{
             width: 550px;
         }
@@ -929,15 +852,7 @@ div h6 {
             font-weight: bold;
         }
         
-        .order-form{
-            width: 580px;
-        }
-
-
-        .medium{
-            display: none;
-        }
-
+    /*----------------------------------------------------------LG--ourstory Page*/
 
         .storyPhoto img{
             margin-top: 98px;
@@ -948,6 +863,23 @@ div h6 {
             
             margin-left: 220px;
             
+        }        
+        /*-----------------------------------------------------------LG--gallery Page*/
+
+
+        .medium{
+            display: none;
         }
-        
+
+    
+
+        /*-----------------------------------------------------LG--order online Page*/
+
+    .order-form{
+            width: 580px;
+        }
+    .menu{
+            margin-left: 100px;
+            
+    }
     }
