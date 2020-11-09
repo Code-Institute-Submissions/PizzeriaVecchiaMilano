@@ -82,7 +82,7 @@ This project makes use of:
     
     
 ### Libraries    
-* [Bootstrap] - Used for responsive navbar, for the menu page and the form.
+* [Bootstrap](https://getbootstrap.com/) - Used for responsive navbar, for the menu page and the form.
 * [JQuery] - The project uses **JQuery** to simplify DOM manipulation.
 * [FontAwseome] - Used for all the icons on the site.
 * [Google Fonts] - Used for the 'Sansita Swashed' fonts.
@@ -93,25 +93,20 @@ This project makes use of:
 ### API
 
 * [Emailjs] - Used to send the contact form in an email format to my gmail account.
-* [GoogleMaps] - Used to display the pizzeria location
+* [Google Cloud Platform] - Used to display a map provided from Google service, to show the pizzeria location.
 
 
-- [Google Chrome](https://www.google.com/chrome/)
-    - Used for browser and dev tools
-- [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new)
-    - Used for browser and dev tools
-- [Microsoft Edge](https://www.microsoft.com/en-us)
-    - Used for browser and dev tools
-- [Google](https://www.google.com/)
-    - **Google** was used for research.
-- [Bootstrap](https://getbootstrap.com/)
-    - HTML and CSS Framework from **Bootstrap**
-    - This project was built using the **Gitpod** IDE
-- [Git](https://git-scm.com/)
-    - **Git** used for Version Control
-- [GitHub](https://github.com/)
-    - Repository hosted on **GitHub**
-- [Github Pages](https://pattern-projects.github.io/oireachtas-ifd-project/)
+
+### TOOLS
+
+* [Google Chrome] - Used for browser and dev tools
+* [Mozilla Firefox] - Used for browser and dev tools
+* [Microsoft Edge] - Used for browser and dev tools
+* [Google] - **Google** was used for research.
+* [Gitpod] - Used as IDE for this project.
+* [Git] - Used for Version Control
+* [GitHub] - Used to host repository and live website.
+* [Github Pages](https://pattern-projects.github.io/oireachtas-ifd-project/)
     - Website hosted on **Github Pages**
 
 
