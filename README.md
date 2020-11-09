@@ -74,16 +74,28 @@ The website is preferably for 16 years old or older.
 
 
 ## Technologies Used
-
+### Languages
 This project makes use of:
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-    - HTML for strucutre
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-    - CSS for Styling
-- [JavaScript](https://www.w3schools.com/jsref/)
-    - **JavaScript** for application controller
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+* [HTML] - base language for this project.
+* [CSS] - Used for Styling the HTML code
+* [JavaScript] - Used to make the web app interactive.
+    
+    
+### Libraries    
+* [Bootstrap] - Used for responsive navbar, for the menu page and the form.
+* [JQuery] - The project uses **JQuery** to simplify DOM manipulation.
+* [FontAwseome] - Used for all the icons on the site.
+* [Google Fonts] - Used for the 'Sansita Swashed' fonts.
+* [Hover.css] - Used to animate the social media icons.
+
+
+
+### API
+
+* [Emailjs] - Used to send the contact form in an email format to my gmail account.
+* [GoogleMaps] - Used to display the pizzeria location
+
+
 - [Google Chrome](https://www.google.com/chrome/)
     - Used for browser and dev tools
 - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new)
