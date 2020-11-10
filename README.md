@@ -1,13 +1,35 @@
+![screens](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/responsive.png?raw=true)
 
 # Pizzeria Vecchia Milano
 
 This is the source code of the Pizzeria Vecchia Milano. 
 
-The website aims to easily display the content, and facilitate customers to make their choice and to place their own order.
+To see it in action just click this [link](https://omarbedawi.github.io/PizzeriaVecchiaMilano/).
 
-This website is suitable for everyone who want to enjoy a delicious pizza in the pizzeria or at home.
 
-To see it in action just click this [link](https://omarbedawi.github.io/PizzeriaVecchiaMilano/)
+## Goals
+### PizzeriaVecchiaMilano goals
+
+The goal of this website is to easily display the content, and facilitate customers to make their choice and to place their own order.
+
+### Target audience is:
+
+* everyone who want to enjoy a delicious pizza in the pizzeria or at home.
+* any age from 16 years old.
+
+### Business goals
+
+To have as many of the attendees of the Pizzeria, as possible, take up usage of the web app.
+Interactive web-app.
+Fully functional web app.
+Intuitive design.
+Easy to navigate.
+
+
+### Customer goals
+
+* Have a great food experience.
+* Find easy to place an order on line for the home delivery or the take away.
 
 
 ## Installation
@@ -26,25 +48,25 @@ In the head of the project I have installed the links to have access to differen
 
 
 
-## UX
+## User Stories
 
 I built a responsive navbar, that shows a toggle menu when the screen size is below 991px. 
-
 To build it I followed an accurate and guided tutorial that you can find at this [link](https://youtu.be/gt8zOLQ8A0w)
 
 The homepage presents a carousel with pictures followed by the awards won by the pizzeria and a google map.
 
-The menu page gives the possibility to see a pizza when you hover the mouse on it: infact an image of the pizza you are hovering on, will appear.
+The menu page gives the possibility to see the pizza that you desire when you click on the button below every pizza: infact an image of the relative pizza, will appear.
+Same thing happen with every dessert.
 
-The ourstory page is telling a piece of history of the pizzeria. At the bottom of the page there is also a short video of them in action.
+The ourstory page is telling a piece of history of the pizzeria. At the bottom of the page there is also a short video of the staff in action.
 
 The gallery page is a collection of pictures shared by the pizzeria staff and the customers.
 
 The order on-line page is for who want a home delivery or to pick up at the pizzeria.
 
-The CSS file is divided by comments, that I used as title to separate the html pages or elements like map and carousel and the different screen sizes
+The CSS file is divided by comments, that I used as title to separate the html pages or elements like map and carousel and the different screen sizes.
 
-This make any future correction or research much easier 
+This make any future correction or research much easier.
 
 ![css](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/css_comments.png?raw=true)
 
@@ -67,12 +89,6 @@ I built the wireframes using the balsamiq.cloud service.
 
 
 
-
-### Users
-
-The website is preferably for 16 years old or older.
-
-
 ## Technologies Used
 ### Languages
 This project makes use of:
@@ -83,17 +99,17 @@ This project makes use of:
     
 ### Libraries    
 * [Bootstrap](https://getbootstrap.com/) - Used for responsive navbar, for the menu page and the form.
-* [JQuery] - The project uses **JQuery** to simplify DOM manipulation.
-* [FontAwseome] - Used for all the icons on the site.
-* [Google Fonts] - Used for the 'Sansita Swashed' fonts.
-* [Hover.css] - Used to animate the social media icons.
+* [JQuery](https://jquery.com/) - The project uses **JQuery** to simplify DOM manipulation.
+* [FontAwseome](https://fontawesome.com/) - Used for all the icons on the site.
+* [Google Fonts](https://fonts.google.com/) - Used for the 'Sansita Swashed' fonts.
+* [Hover.css](https://ianlunn.github.io/Hover/) - Used to animate the social media icons.
 
 
 
 ### API
 
-* [Emailjs] - Used to send the contact form in an email format to my gmail account.
-* [Google Cloud Platform] - Used to display a map provided from Google service, to show the pizzeria location.
+* [Emailjs](https://www.emailjs.com/) - Used to send the contact form in an email format to my gmail account.
+* [Google Cloud Platform](https://console.cloud.google.com/) - Used to display a map provided from Google service, to show the pizzeria location.
 
 
 
@@ -103,19 +119,24 @@ This project makes use of:
 * [Mozilla Firefox] - Used for browser and dev tools
 * [Microsoft Edge] - Used for browser and dev tools
 * [Google] - **Google** was used for research.
-* [Gitpod] - Used as IDE for this project.
-* [Git] - Used for Version Control
-* [GitHub] - Used to host repository and live website.
-* [Github Pages](https://pattern-projects.github.io/oireachtas-ifd-project/)
-    - Website hosted on **Github Pages**
+* [Balsamiq Cloud](https://balsamiq.cloud/) - Used for creation of wireframes.
+* [Gitpod](https://www.gitpod.io/) - Used as IDE for this project.
+* [Git](https://git-scm.com/) - Used for Version Control
+* [GitHub](https://github.com/) - Used to host repository and live website.
+* [Github Pages](https://pattern-projects.github.io/oireachtas-ifd-project/) - Website hosted on **Github Pages**
+* [Am I Responsive](http://ami.responsivedesign.is/) - Used for testing purposes as well as creating the image to display the web pages on different devices.
+* [W3 Html validator](https://validator.w3.org/) - Used to test and validate my html code.
+* [W3 Css validator](https://jigsaw.w3.org/) - Used to test and validate my css code.
+* [JSHint](https://jshint.com/) - Used to validate my Javascript code.
+* [Color Scheme Designer](http://colorschemedesigner.com/) - Used to test colour combinations.
+* [Free Formatter](https://www.freeformatter.com/) - Used to format my html, css and javascript code.
+* [PageSpeed insights](https://developers.google.com/speed/pagespeed/insights/) - Used for testing the loading speed of the site.
 
 
-
+![speedtest](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/speedtest.png?raw=true)
+A caption of a speed test on PageSpeed insights.
 
 ## Testing
-
-The code was tested through the [W3C Markup Validator](https://validator.w3.org/#validate_by_input) for Html and Css.
-
 
 Responsive Navbar:
 1. Go to any html page.
@@ -177,43 +198,51 @@ Contact form:
 
 
 
-The site was also tested through different browser (Mozilla Firefox, Google Chrome and Microsoft Edge) and different screen sizes
-![screens](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/responsive.png?raw=true)
+
+
 
 ## Deployment
 
-The project is hosted on [GitHub Pages](https://github.com/OmarBedawi/PizzeriaVecchiaMilano)
+This web app was developed in Gitpod and pushed to the remote repository, GitHub. The live page is hosted on GitHub Pages.
 
-The process involved:
-- Host a git repository on GitHub. Explained [here](https://help.github.com/en/articles/create-a-repo).
-- The root folder contains README.md and index.html files
-- On GitHub repository settings page move to GitHub Pages section
-- Change source to master branch. (Or any desired branch)
-- Provided link will be your projects home (index.html) page.
- 
-To deploy your own version of the website:
-- Have git installed
-- Visit the [repository]([GitHub](https://github.com/OmarBedawi/PizzeriaVecchiaMilano))
-- Click 'Clone or download' and copy the code for http
-- Open your chosen IDE (in my case Gitpod)
-- Open a terminal in your root directory
-- Type 'git clone ' followed by the code taken from github repository
-    - ```git clone https://github.com/OmarBedawi/PizzeriaVecchiaMilano-ifd-project.git```
-- When this completes you have your own version of the website
-    - Feel free to make any changes to it
-- The website can be run by opening one of the HTML files within a web browser
-- Visit the link provided
-- Your website with any made changes will appear
-- Saved changes to the website will appear here after refreshing the page
+### Used commands during deployment:
 
-The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.
+* git add . - to add the files to the staging area.
+* git commit -m "text message here" - to commit the files.
+* git push - to push to origin master branch on to GitHub.
+* git status - to see the current status of the files.
 
-It may take a moment for changes to appear on the hosted website.
+### Hosting on GitHub Pages
 
-During development the site is written in Gitpod.
+* Log into GitHub.
+* From the list of repositories choose [PizzeriaVecchiaMilano](https://github.com/OmarBedawi/PizzeriaVecchiaMilano).
+* Go to settings.
+* Scroll down to GitHub Pages section.
+* Select as a source master branch.
+* The page is now automatically refreshed and the project is deployed.
+* To access the project scroll down again to GitHub Pages section and click on the provided link.
+
+For more detailed information regarding deployment to GitHub Pages click [here](https://pages.github.com/).
+
+### How to run this project locally
+#### Clone this project from GitHub:
+
+* Go to [PizzeriaVecchiaMilano](https://github.com/OmarBedawi/PizzeriaVecchiaMilano) GitHub repository.
+* Click on "Clone or download" green button.
+* Copy the URL to the repository.
+* Open the terminal in your IDE.
+* Choose the working directory where you would like to have the cloned repository.
+* Type git clone, and add the URL you copied from Github: git clone https://github.com/OmarBedawi/PizzeriaVecchiaMilano-Web-App.git
+* Press Enter and your local clone will be created.
+
+For more information regarding cloning of a repository click here.
 
 ### Acknowledgements
 Thank you to the following for inspiration, motivation and the direction I needed:
 
-- Seun Owonikoko    @seun_mentor
+- Seun Owonikoko   (my mentor)
 - Code Institute staff
+
+## Disclaimer
+
+This web page was created for educational purposes only.
