@@ -134,16 +134,20 @@ This project makes use of:
 
 
 ![speedtest](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/speedtest.png?raw=true)
-A caption of a speed test on PageSpeed insights.
+###### A caption of a speed test on PageSpeed insights.
 
 ## Testing
 
-Responsive Navbar:
+Navbar:
 1. Go to any html page.
 1. Try to reduce the screen size to any size below 991px and verify that a toggle menu appears on the top right angle of the screen.
 1. Try to click on the toggle menu and verify that a list with all the pages of the website appears to you.
 1. Try to click on every page provided by the toggle menu and verify that the pages are all connected between each other and reachable from any other page.
-
+1. Try to hover the mouse over the Menu, Ourstory and Gallery links in the navbar and verify that their color text change to yellow and back to white when you move the mouse out.
+1. Try to hover the mouse over the social media icons in the footer and verify that the icons color change to yellow and back to white when you move the mouse out.
+1. Try to click on the social media icons and verify that they are correctly linked.
+1. Try to click on the logo and verify that it redirect you to the "index" page.
+1. Try to scroll any html page and verify that the navbar is fixed.
 
 
 Carousel:
@@ -152,18 +156,35 @@ Carousel:
 1. Click on the right arrow of the carousel and verify that the left arrow appears.
 1. After the first click on the right arrow, click on left arrow to go back to the first picture, and verify that the left arrow disappears.
 1. Click on the right arrow until you reach the last picture, and verify that the right arrow disappears.
+1. Click on the dots right below the carousel and verify that every dot matches a picture.
+
+
+
+Menu:
+1. Go to the "menu" page.
+1. Click on any button and verify that an image of the relative pizza or dessert will appear on  the page.
+1. Click on any button and verify that the text "Show" on the button change in "Hide".
+
+![menu1](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/menu1.png?raw=true)
+![menu2](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/menu2.png?raw=true)
+
+
 
 
 Video:
 1. Go to the "our story" page.
-1. Scroll to the end of the page where the video is placed, try to click on the "play" command and verify that the video is playing.
+1. Scroll to the end of the page where the video is placed, try to click on the "play" command and verify that the video is starting.
 
 
 Gallery:
 1. Go to the "gallery" page.
-1. Set the size of the screen to at least 992px and verify that every raw has 4 column of pictures.
-1. Set the size of the screen between 576px and 992px and verify that every raw has 3 column of pictures.
-1. Set the size of the screen to less than 576px and verify that every raw has 2 column of pictures.
+1. Set the size of the screen to at least 992px and verify that every raw has 4 columns of pictures.
+1. Set the size of the screen between 576px and 992px and verify that every raw has 3 columns of pictures.
+1. Set the size of the screen to less than 576px and verify that every raw has 2 columns of pictures.
+
+![gall1](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/gall1.png?raw=true)
+![gall2](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/gall2.png?raw=true)
+![gall3](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/gall3.png?raw=true)
 
 
 Contact form:
@@ -171,13 +192,18 @@ Contact form:
 1. Try to submit the form with empty fields and verify that an error message about the required fields appears.
 1. Try to submit the form with an invalid email address and verify that a relevant error message appears.
 1. Try to submit the form with all inputs valid (and a valid email ) and verify that a confirmation email is sent to the email address provided.
+1. Try to submit the form and verify that all the fields are cleared.
 
 
 
 
 
+# Bugs
 
+The project presents two little bugs that I still need to correct:
 
+1. When the carousel is at last picture, the right arrow suppose to disappear but it doesn't.
+1. Can't make the submit button to submit and clear the form at the same time. The two funtions for now, work only alternatively.
 
 
 
