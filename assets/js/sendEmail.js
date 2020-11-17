@@ -12,5 +12,10 @@ function sendMail(contactForm) {
 				console.log("FAILED", error);
 			}
 		);
+        //The reset function is working only alternatively to sendMail function and not together. Need to fix it.
+        /*form.reset();   
+    $('#order-form').modal('hide');*/
 	return false; // To block from loading a new page
 }
+
+
