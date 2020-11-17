@@ -79,7 +79,7 @@ This make any future correction or research much easier.
 
 ### WIREFRAMES
 
-I built the wireframes using the balsamiq.cloud service.
+I built the wireframes using the [Balsamiq Cloud](https://balsamiq.cloud/) service.
 
 ![home](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/1homepage.png?raw=true)
 ![menu](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/wireframes/2menu.png?raw=true)
@@ -194,6 +194,17 @@ Contact form:
 1. Try to submit the form with all inputs valid (and a valid email ) and verify that a confirmation email is sent to the email address provided.
 1. Try to submit the form and verify that all the fields are cleared.
 
+
+![email](https://raw.githubusercontent.com/OmarBedawi/PizzeriaVecchiaMilano/master/assets/images/readMe_files/email.png?raw=true)
+###### Verify that the contact form information has been sent to my Gmail account by emailjs.
+
+
+## Code Validation
+* I used the [W3 Html validator](https://validator.w3.org/) service to validate my html code.
+
+* I used the [W3 Css validator](https://jigsaw.w3.org/) service to validate my css code.
+
+* I used the [JSHint](https://jshint.com/) service to validate my javascript code.
 
 
 
