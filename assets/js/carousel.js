@@ -1,3 +1,4 @@
+//This is the javascript file of the carousel in the index.html page (https://www.youtube.com/watch?v=VYsVOamdB0g)
 const track = document.querySelector('.carousel__track');
 const slides = Array.from(track.children);
 const nextButton = document.querySelector('.carousel__button--right');
